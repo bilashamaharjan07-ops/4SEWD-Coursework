@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#A8C3A0;
+    margin-left:150px;
+    margin-top:30px;
+}
+
+/* Main box */
+.container{
+    width:960px;
+    height:600px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+
+}
+
+/* Left side */
+.left{
+
+    float:left;
+    width:500px;
+    height:570px;
+    background:linear-gradient(
+        160deg,
+        #8cba9c,
+        #31573e
+    );
+    border-radius:20px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding:40px;
+    overflow:hidden;
+
+}
+
+.logo{
+
+    color:white;
+    font-weight:bold;
+    font-size:23px;
+
+}
+
+
+.image-text{
+
+    position:absolute;
+    bottom:70px;
+    color:white;
+
+}
+
+/* Right side */
+.right{
+    float:right;
+    width:45%;
+    padding:40px 50px;
+
+}
+
+
+.welcome{
+    color:#31573e;
+    font-size:40px;
+    margin-bottom:15px;
+
+}
+
+.description{
+    color:#888;
+    font-size:14px;
+    margin-bottom:35px;
+
+}
+
+label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:10px;
+
+}
+
+
+.type{
+
+    width:100%;
+    padding:10px;
+    border:1px solid #aaa;
+    border-radius:12px;
+    margin-bottom:25px;
+
+}
+
+
+/* Remember + forgot */
+.options{
+
+    overflow:hidden;
+
+    font-size:13px;
+
+    color:#888;
+
+    margin-bottom:25px;
+
+}
+
+
+/* Login button */
+
+button{
+
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background:#31573e;
+    color:white;
+    font-size:16px;
+
+}
+
+
+
+/* OR section */
+
+.or{
+
+    text-align:center;
+    margin:10px 0;
+    color:#999;
+    font-size:13px;
+
+}
+
+
+.or span{
+
+    display:inline-block;
+    width:80px;
+    height:1px;
+    background:#aaa;
+    margin:0 10px;
+    vertical-align:middle;
+
+}
+
+
+
+/* Social buttons */
+
+.social{
+
+    text-align:center;
+
+}
+
+
+.social button{
+
+    background:white;
+
+    color:#555;
+
+    border:1px solid #aaa;
+
+    width:80px;
+
+    margin:0 8px;
+
+}
