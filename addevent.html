@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Event - Planora</title>
+    <link rel="stylesheet" href="addevent.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2 class="logo"><i class="fa fa-leaf"></i> PLANORA</h2>
+        <p style="font-size:13px;">Event Management System</p>
+        <nav>
+            <a href="home.html">Dashboard</a>
+            <a href="eventlist.html">Events</a>
+            <a href="attendeelist.html">Attendees</a>
+            <a>Registrations</a>
+            <hr>
+            <a class="active">Add Event</a>
+            <a href="addattendee.html">Add Attendee</a>
+            <a>Reports</a>
+            <a>Settings</a>
+        </nav>
+        <div class="admin">↪ Logout</div>
+    </div>
+    <div class="main">
+        <header>
+            <input class="search" placeholder="Search events">
+            <span class="profile"><i class="fa fa-user-circle"></i> Admin</span>
+        </header>
+        <h1>Add New Event</h1>
+        <p>Create a new event and add all the details.</p>
+    <div class="form-box">
+        <h2>Event Information</h2>
+        <label>Event Title</label>
+        <input type="text" placeholder="Enter event title">
+        <label>Category</label>
+        <select>
+            <option>Select category</option>
+            <option>Technology</option>
+            <option>Music</option>
+        </select>
+        <label>Event Type</label>
+        <select>
+            <option>Select event type</option>
+            <option>Conference</option>
+            <option>Workshop</option>
+        </select>
+        <label>Description</label>
+        <textarea placeholder="Enter event description"></textarea>
+        <div class="small">
+            <div>
+                <label>Start Date</label>
+                <input type="date">
+            </div>
+            <div><label>End Date</label>
+                <input type="date">
+            </div>
+            <div>
+                <label>Time</label>
+                <input type="time">
+            </div>
+        </div>
+        <label>Venue / Location</label>
+        <input placeholder="Enter venue or location">
+        <label>Capacity</label>
+        <input placeholder="Enter capacity">
+        <h2>Additional Information</h2>
+        <label>Organizer</label>
+        <input placeholder="Organizer name">
+        <label>Contact Email</label>
+        <input placeholder="Contact email">
+        <label>Contact Phone</label>
+        <input placeholder="Contact phone">\
+        <button>Save Event</button>
+        <button class="reset">Reset</button>
+    </div>
+    <footer>
+
+    Secure System | Event Management System | Logged in as Admin
+
+    </footer>
+    </div>
+</body>
+</html>
