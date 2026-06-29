@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendee List</title>
+    <link rel="stylesheet" href="attendeelist.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div>
+    <div class="sidebar">
+        <div>
+            <h2 class="logo"><i class="fa fa-leaf"></i> PLANORA</h2>
+            <p style="font-size:13px;">Event Management System</p>
+        </div>
+        <nav>
+            <a href="home.html">Dashboard</a>
+            <a href="eventlist.html">Events</a>
+            <a class="active">Attendees</a>
+            <a>Registrations</a>
+            <hr>
+            <a href="addevent.html">Add Event</a>
+            <a href="addattendee.html">Add Attendee</a>
+            <a>Reports</a>
+            <a>Settings</a>
+        </nav>
+
+        <div class="admin">
+            <p>↪ Logout</p>
+        </div>
+    </div>
+    <div class="main">
+        <h2 class="heading">Attendee</h2>
+        <input type="text" placeholder="Search Attendee" class="input">
+        <a href="addattendee.html"><button>+ Add Attendee</button></a>
+        <div class="menu">
+            <span class="selected">All Attendee</span>
+            <span>Registered</span>
+            <span>Pending</span>
+            <span>Cancelled</span>
+        </div>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Event</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+
+                <tr>
+                    <th>Sarah</th>
+                    <th>abc@gmail.com</th>
+                    <th>9876181611</th>
+                    <th>Summer Music Festival</th>
+                    <th><div class="status-registered">Registered</div></th>
+                    <th>Action</th>
+                </tr>
+
+                <tr>
+                    <th>John</th>
+                    <th>xyz@gmail.com</th>
+                    <th>9819735311</th>
+                    <th>Summer Music Festival</th>
+                    <th><div class="status-pending">Pending</div></th>
+                    <th>Action</th>
+                </tr>
+
+                <tr>
+                    <th>Mary</th>
+                    <th>hue@gmail.com</th>
+                    <th>9890162311</th>
+                    <th>Summer Music Festival</th>
+                    <th><div class="status-notregistered">Not registered</div></th>
+                    <th>Action</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+   </div> 
+</body>
+</html>
