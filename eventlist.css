@@ -15,7 +15,7 @@ background:#ffffff;
 
 
 .sidebar{
-    width: 210px;
+    width: 200px;
     height: 1200px;
     float: left;
     background:#31573e;
@@ -72,8 +72,8 @@ padding:40px;
 
 .event{
 
-font-size:40px;
-color:#315B3B;
+    font-size:40px;
+    color:#315B3B;
 
 }
 
@@ -81,56 +81,49 @@ color:#315B3B;
 
 .input{
 
-margin-top:20px;
-width:250px;
-padding:12px;
-border-radius:8px;
-border:1px solid #ccc;
+    margin-top:20px;
+    width:250px;
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #ccc;
 
 }
 
 
 
 button{
-
-background:#315B3B;
-color:white;
-border:0;
-padding:13px 20px;
-border-radius:8px;
-margin-left:10px;
-
+    background:#315B3B;
+    color:white;
+    padding:11px;
+    border-radius:8px;
+    margin-left:10px;
 }
 
 
 
 
 .menu{
-
-margin-top:30px;
-background:#eee;
-padding:12px;
-width:490px;
-border-radius:15px;
+    margin-top:30px;
+    background:#eee;
+    padding:12px;
+    width:90%;
+    border-radius:15px;
 
 }
 
 .menu span{
-margin-right:20px;
+    margin-right:20px;
+    margin-left: 50px;
 }
 
 
 .selected{
-margin-left: -12px;
-background:#315B3B;
-color:white;
-padding:12px;
-border-radius:15px;
+    color:#31573e;
+    font-weight:bold;
+    border-bottom:3px solid #31573e;
+    padding-bottom:10px;
 
 }
-
-
-
 
 
 .card{
@@ -180,6 +173,7 @@ margin:5px;
 
 
 label{
+    font-weight: bold;
 margin-top: 40px;
 float:right;
 padding:8px;
