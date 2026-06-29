@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<div class="container">
+<div>
     <div class="sidebar">
         <div>
             <h2 class="logo"><i class="fa fa-leaf" aria-hidden="true"></i> PLANORA</h2>
@@ -18,12 +18,12 @@
 
         <nav style="margin-top:30px;">
             <a class="active">Dashboard</a>
-            <a>Events</a>
-            <a>Attendees</a>
+            <a href="eventlist.html">Events</a>
+            <a href="attendeelist.html">Attendees</a>
             <a>Registrations</a>
             <hr>
-            <a>Add Event</a>
-            <a>Add Attendee</a>
+            <a href="addevent.html">Add Event</a>
+            <a href="addattendee.html">Add Attendee</a>
             <a>Reports</a>
             <a>Settings</a>
         </nav>
@@ -53,8 +53,8 @@
             Manage your events, attendees, and registrations all in one place.
             </p>
 
-            <button style="background-color: rgb(91, 148, 91)";>View Events →</button>
-            <button class="outline">Add New Event +</button>
+            <a href="eventlist.html"><button style="background-color: rgb(91, 148, 91)";>View Events</button></a>
+            <a href="addevent.html"><button class="outline">New Event </button></a>
 
         </section>
 
@@ -102,24 +102,24 @@
 
             <h2 style="margin: 15px;">Quick Actions</h2>
                 <div class="quick" style="background-color: rgb(226, 245, 226);">
-                    <h3> Events</h3>
+                    <h3 style="color:#31573e;"> Events</h3>
                     <p>• View all events</p>
                     <p>• Search events</p>
                     <p>• Add or edit events</p>
 
-                    <button style="background-color: rgb(91, 148, 91) ;">Manage Events</button>
+                    <a href="eventlist.html"><button style="background-color: rgb(91, 148, 91) ;">Manage Events</button></a>
                 </div>
 
 
 
                 <div class="quick" style="background-color: rgb(229, 239, 250);">
-                    <h3> Attendees</h3>
+                    <h3 style="color:#314157;"> Attendees</h3>
 
                     <p>• View attendee list</p>
                     <p>• Add or edit attendees</p>
                     <p>• Manage attendee details</p>
 
-                    <button style="background-color: rgb(60, 92, 126);;">Manage Attendees</button>
+                    <a href="attendeelist.html"><button style="background-color: rgb(60, 92, 126);;">Manage Attendees</button></a>
 
                 </div>
 
@@ -127,7 +127,7 @@
 
                 <div class="quick" style="background-color: rgb(246, 236, 255);">
 
-                    <h3>✔ Registration</h3>
+                    <h3 style="color:#463157;">Registration</h3>
 
                     <p>• Assign attendees to events</p>
                     <p>• View registered attendees</p>
