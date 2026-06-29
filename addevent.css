@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+
+}
+
+body{
+    background:#ffffff;
+
+}
+
+
+.sidebar{
+    width:200px;
+    height:1380px;
+    float:left;
+    background:#31573e;
+    color:white;
+    padding:25px;
+}
+
+.logo{
+    font-size:23px;
+    color:white;
+}
+
+nav{
+    margin-top:30px;
+}
+
+
+nav a{
+
+    display:block;
+    padding:15px;
+    margin:8px 0;
+    color:white;
+}
+
+.active{
+
+    background:#8cba9c;
+    border-radius:10px;
+
+}
+
+.admin{
+
+    margin-top:770px;
+    background:#8cba9c;
+    padding:20px;
+    border-radius:12px;
+
+}
+
+/* Main */
+.main{
+    margin-left:250px;
+    padding:35px;
+}
+
+header{
+    height:70px;
+}
+
+.search{
+    width:370px;
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+.profile{
+    float:right;
+    margin:15px;
+    font-size:18px;
+}
+
+h1{
+    color:#31573e;
+    margin-bottom:10px;
+}
+
+/* Form */
+.form-box{
+    margin-top:25px;
+    width:90%;
+    border:1px solid #ddd;
+    padding:30px;
+    border-radius:15px;
+}
+
+.form-box h2{
+    color:#31573e;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+input,select,textarea{
+    width:45%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+textarea{
+    width:95%;
+    height:100px;
+}
+
+.small div{
+    display:inline-block;
+    width:30%;
+}
+
+.small input{
+    width:90%;
+
+}
+
+.upload{
+    border:1px dashed #aaa;
+    width:95%;
+    padding:25px;
+    margin-top:10px;
+    border-radius:10px;
+}
+
+button{
+    background:#31573e;
+    color:white;
+    border:0;
+    padding:12px 30px;
+    border-radius:8px;
+    margin-top:25px;
+}
+
+.reset{
+    background:#ddd;
+    color:black;
+    margin-left:10px;
+}
+
+footer{
+    margin-top:40px;
+    padding:20px;
+    text-align:center;
+}
