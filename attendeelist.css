@@ -13,7 +13,7 @@ body{
 
 .sidebar{
     width:200px;
-    height:950px;
+    height:720px;
     float:left;
     background:#31573e;
     color:white;
@@ -47,7 +47,7 @@ nav a{
 
 .admin{
 
-    margin-top:350px;
+    margin-top:250px;
     background:#8cba9c;
     padding:20px;
     border-radius:12px;
@@ -107,7 +107,7 @@ button{
     width: 92%;
 }
 th{
-    padding: 20px;
+    padding: 25px;
     text-align: center;
     border-bottom: 1px solid #eee;
 }
@@ -139,4 +139,9 @@ th{
     padding: 8px;
     font-weight: bold;
     border-radius: 40px;
+}
+footer{
+    margin-top:40px;
+    padding:20px;
+    text-align:center;
 }
