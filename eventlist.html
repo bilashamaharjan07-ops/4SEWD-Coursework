@@ -22,13 +22,13 @@
         </div>
 
         <nav style="margin-top:30px;">
-            <a class="active">Dashboard</a>
-            <a>Events</a>
-            <a>Attendees</a>
+            <a href="home.html">Dashboard</a>
+            <a class="active">Events</a>
+            <a href="attendeelist.html">Attendees</a>
             <a>Registrations</a>
             <hr>
-            <a>Add Event</a>
-            <a>Add Attendee</a>
+            <a href="addevent.html">Add Event</a>
+            <a href="addattendee.html">Add Attendee</a>
             <a>Reports</a>
             <a>Settings</a>
         </nav>
@@ -48,7 +48,7 @@
 
         <input type="text" placeholder="Search events" class="input">
 
-        <button>+ Create Event</button>
+        <a href="addevent.html"><button>+ Create Event</button></a>
 
         <div class="menu">
             <span class="selected">All Events</span>
@@ -61,22 +61,22 @@
 
 
 
-        <div class="card">
+        <a href="viewevent.html" style="color: black;">
+            <div class="card">
+                <img src="event.jpg">
 
+                <div class="info">
 
-            <img src="event.jpg">
+                    <h3>Tech Innovators Summit 2026</h3>
 
-            <div class="info">
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i> May 20, 2026 - May 22, 2026</p>
 
-                <h3>Tech Innovators Summit 2025</h3>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> Bhaktapur</p>
 
-                <p><i class="fa fa-clock-o" aria-hidden="true"></i> May 20, 2025 - May 22, 2025</p>
-
-                <p><i class="fa fa-map-marker" aria-hidden="true"></i> Bhaktapur</p>
-
-                <p><i class="fa fa-users" aria-hidden="true"></i> 1250 Attendees</p>
+                    <p><i class="fa fa-users" aria-hidden="true"></i> 1250 Attendees</p>
 
             </div>
+        </a>
 
 
             <label style="color:#163179; background-color: #c3d3f8;">
@@ -157,7 +157,7 @@
             </div>
 
 
-            <label style="color:#26733c; background-color: #d8f0dc;">Completed</label>
+            <label style="color:#26733c; background-color: #d8f0dc; font-weight: bold;">Completed</label>
 
 
         </div>
