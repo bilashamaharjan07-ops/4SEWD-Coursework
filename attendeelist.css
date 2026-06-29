@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+
+}
+
+body{
+    background:#ffffff;
+
+}
+
+
+.sidebar{
+    width:200px;
+    height:950px;
+    float:left;
+    background:#31573e;
+    color:white;
+    padding:25px;
+}
+
+.logo{
+    font-size:23px;
+    color:white;
+}
+
+nav{
+    margin-top:30px;
+}
+
+
+nav a{
+
+    display:block;
+    padding:15px;
+    margin:8px 0;
+    color:white;
+}
+
+.active{
+
+    background:#8cba9c;
+    border-radius:10px;
+
+}
+
+.admin{
+
+    margin-top:350px;
+    background:#8cba9c;
+    padding:20px;
+    border-radius:12px;
+
+}
+
+.main{
+    margin-left:270px;
+    padding:40px;
+
+}
+
+.heading{
+    font-size:40px;
+    color:#315B3B;
+}
+
+.input{
+    margin-top:20px;
+    width:250px;
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+button{
+    background:#315B3B;
+    color:white;
+    padding:11px;
+    border-radius:8px;
+    margin-left:10px;
+}
+.menu{
+    margin-top: 30px;
+    background-color: #eee;
+    padding: 12px;
+    width: 90%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.menu span{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.selected{
+    color: #31573e;
+    border-bottom: 3px solid #31573e;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.table{
+    margin-top: 30px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    width: 92%;
+}
+th{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.status-registered{
+    color:#26733c; 
+    background-color: #d8f0dc;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.status-notregistered{
+    color:#791616; 
+    background-color: #f8c3c3;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.status-pending{
+    color:#163179;
+    background-color: #c3d3f8;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.status{
+    margin: 30px;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 40px;
+}
