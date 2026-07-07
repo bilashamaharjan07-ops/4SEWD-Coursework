@@ -1,0 +1,190 @@
+*{
+
+margin:0;
+padding:0;
+font-family:Arial;
+
+}
+
+
+body{
+
+background:#ffffff;
+
+}
+
+
+.sidebar{
+    width: 200px;
+    height: 1200px;
+    float: left;
+    background:#31573e;
+    color:white;
+    padding:25px;
+
+}
+
+.logo{
+    color:white;
+    font-weight:bold;
+    font-size:23px;
+}
+
+nav a{
+
+    display:block;
+    padding:15px;
+    margin:8px 0;
+    color:white;
+
+}
+
+
+.active{
+
+    background:#8cba9c;
+    border-radius:10px;
+
+}
+
+
+.admin{
+
+    margin-top:700px;
+    background:#8cba9c;
+    padding:20px;
+    border-radius:12px;
+
+}
+
+
+
+
+
+.main{
+
+margin-left:270px;
+padding:40px;
+
+
+}
+
+
+.event{
+
+    font-size:40px;
+    color:#315B3B;
+
+}
+
+
+
+.input{
+
+    margin-top:20px;
+    width:250px;
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #ccc;
+
+}
+
+
+
+button{
+    background:#315B3B;
+    color:white;
+    padding:11px;
+    border-radius:8px;
+    margin-left:10px;
+}
+
+
+
+
+.menu{
+    margin-top:30px;
+    background:#eee;
+    padding:12px;
+    width:90%;
+    border-radius:15px;
+
+}
+
+.menu span{
+    margin-right:20px;
+    margin-left: 50px;
+}
+
+
+.selected{
+    color:#31573e;
+    font-weight:bold;
+    border-bottom:3px solid #31573e;
+    padding-bottom:10px;
+
+}
+
+
+.card{
+
+margin-top:25px;
+width:90%;
+height:120px;
+border:1px solid #ddd;
+border-radius:15px;
+padding:15px;
+
+}
+
+
+
+.card img{
+
+width:150px;
+height:100px;
+object-fit:cover;
+float:left;
+margin-right:20px;
+border-radius:10px;
+
+
+}
+
+.info{
+    display: inline-block;
+}
+
+.info h3{
+
+color:#315B3B;
+margin-bottom:10px;
+
+}
+
+
+
+.info p{
+
+margin:5px;
+
+}
+
+
+
+label{
+    font-weight: bold;
+margin-top: 40px;
+float:right;
+padding:8px;
+border-radius:15px;
+
+}
+
+footer{
+
+    margin-top:30px;
+    padding:20px;
+    text-align:center;
+
+}

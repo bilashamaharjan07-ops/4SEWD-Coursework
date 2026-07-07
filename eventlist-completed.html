@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Planora Events</title>
+    <link rel="stylesheet" href="eventlist-completed.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+<div class="container">
+
+
+    <div class="sidebar">
+        <div>
+            <h2 class="logo"><i class="fa fa-leaf" aria-hidden="true"></i> PLANORA</h2>
+            <p style="font-size:13px;">Event Management System</p>
+        </div>
+
+        <nav style="margin-top:30px;">
+            <a href="home.html">Dashboard</a>
+            <a class="active">Events</a>
+            <a href="attendeelist.html">Attendees</a>
+            <a href="registration.html">Registrations</a>
+            <hr>
+            <a href="addevent.html">Add Event</a>
+            <a href="addattendee.html">Add Attendee</a>
+    
+        </nav>
+
+
+        <div class="admin">
+            <a href="login.html" style="color: white;">↪ Logout</a>
+        </div>
+
+    </div>
+
+
+
+    <div class="main">
+        <h2 class="event">Events</h2>
+        <p>Manage and organize your events in one place.</p>
+
+        <input type="text" placeholder="Search events" class="input">
+
+        <a href="addevent.html"><button>+ Create Event</button></a>
+
+        <div class="menu">
+            <span>All Events</span>
+            <span>Upcoming</span>
+            <span>Ongoing</span>
+            <span class="selected">Completed</span>
+            <span>Cancelled</span>
+
+        </div>
+        <div class="card">
+            <img src="event.jpg">
+
+            <div class="info">
+
+                <h3>Leadership Workshop</h3>
+
+                <p><i class="fa fa-clock-o" aria-hidden="true"></i> June 8, 2025</p>
+
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i> Online Event</p>
+
+                <p><i class="fa fa-users" aria-hidden="true"></i> 50 Attendees</p>
+
+            </div>
+
+
+            <label style="color:#26733c; background-color: #d8f0dc; font-weight: bold;">Completed</label>
+
+
+        </div>
+    <footer>
+
+        Secure System | Event Management System | Logged in as Admin
+
+    </footer>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
