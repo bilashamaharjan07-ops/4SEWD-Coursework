@@ -1,27 +1,30 @@
-import pagetitle from "./assets/component/pagetitle/pagetitle";
-
+import { TaskContainer } from "./assets/component/TaskContainer/TaskContainer";
+import { useState } from "react";
 function App() {
+  const [isHidden, setIsHidden] = useState(false);
+  const[counter, setCounter]=useState(0);
+  console.log("App component is rendering");
   return (
     <>
-      <pagetitle />
-      <h2>Tasks due today</h2>
-      <ul>
-        <li>
-          <span>9:00 AM</span> - <span>Complete task 1</span>
-        </li>
-        <li>
-          <span>9:10 AM</span> - <span>Complete task 2</span>
-        </li>
-        <li>
-          <span>9:15 AM</span> - <span>Complete task 3</span>
-        </li>
-        <li>
-          <span>9:20 AM</span> - <span>Complete task 4</span>
-        </li>
-        <li>
-          <span>9:25 AM</span> - <span>Complete task 5</span>
-        </li>
-      </ul>
+      <TaskContainer />
+      {!isHidden && (
+        <div
+          style={{ backgroundColor: "red", height: "200px", width: "200px" }}
+        ></div>
+      )}
+      <span>{
+        counter
+        }
+
+      </span>
+      <button
+        onClick={() => {
+          setIsHidden(!isHidden);
+          setCounter(counter + 1);
+        }}
+      >
+        Toogle view
+      </button>
     </>
   );
 }
